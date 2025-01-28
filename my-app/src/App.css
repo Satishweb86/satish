@@ -1,0 +1,54 @@
+
+/* .body{
+  background-color: aqua;
+  text-align: center;
+} */
+/* .satish{
+  height: 100px;
+  width: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+} */
+/* .box{
+  height: 100px;
+  width: 100px;
+  border-radius: 18px;
+  margin-top: 8px;
+  margin-left: 8px;
+}
+
+.sonst{
+  justify-items: center;
+   justify-content: flex-start;
+margin-top: 100px;
+}
+.satsih{
+  display: flex;
+  gap: 115px;
+}
+body {
+  background-color: aquamarine;
+}
+.game{
+text-align: center;
+color: blue;
+font-size: 50px;
+
+}
+.game span{
+  color: rgb(232, 228, 223);
+  padding-left: 15px;
+}
+.reset {
+font-size: 50px;
+border-radius: 50px;
+margin-left: 100px;
+/* margin-inline-end: 50px;
+margin-inline-start: 50px; */
+/* margin-block-end: 50px; */
+/* margin-top: 20px;
+color: blue;
+
+} */ 
