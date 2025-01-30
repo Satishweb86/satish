@@ -1,27 +1,11 @@
 import React from 'react'
-import rat from "./App.js"
+import app from "./App.js"
 
 const tic = () => {
   return (
-    <div className='container'>
-        <div className='sat'>
-           <rat/>
-           <rat/>
-           <okk/>
-        </div>  
-        <div className='sat'>
-           <rat/>
-           <rat/>
-           <ok/>
-        </div>   
-        <div className='sat'>
-           <ok/>
-           <ok/>
-           <ok/>
-        </div>
-                                                                                                        
-
-      
+    <div>
+      <app/>
+      <app/>
     </div>
   )
 }

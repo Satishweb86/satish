@@ -1,14 +1,26 @@
-import React from 'react'
+import React, { useState } from 'react'
+import "./App.css"
 
-const rat = () => {
-  return (
+const App = () => {
+ const[a ,seta] = useState()
+ const change = () =>{
+seta("suraj")
+ }
+ const meme = ()=>{
+  seta("rahul")
+ }
+
+ return (
     <div>
-      
-      <button></button>1
+      <h1>satish{a}</h1>
+      <button onMouseOver={change}>changea</button>
+      <button onMouseOver={meme}>mene</button>
     </div>
   )
 }
 
-export default rat;
+export default App
+
+
 
 
