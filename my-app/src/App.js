@@ -1,20 +1,23 @@
-import React, { useState } from 'react'
+import React from 'react'
 import "./App.css"
 
+
 const App = () => {
- const[a ,seta] = useState()
- const change = () =>{
-seta("suraj")
- }
- const meme = ()=>{
-  seta("rahul")
+ const hta=(e)=>{
+ e.preventDefault()
+ console.log(e)
  }
 
  return (
+   
     <div>
-      <h1>satish{a}</h1>
-      <button onMouseOver={change}>changea</button>
-      <button onMouseOver={meme}>mene</button>
+      <form onSubmit={(e)=>{
+        hta(e)
+      }}>
+        <input className='hta' placeholder='scerce'></input>
+        <button>click</button>
+      
+      </form>
     </div>
   )
 }
